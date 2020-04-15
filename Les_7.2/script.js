@@ -23,3 +23,15 @@ window.addEventListener('DOMContentLoaded', function(){
         console.log('Red box: touchend');
     });*/
 });
+
+
+/*let answer = prompt('Введите своё имя');
+
+let reg = /n/;
+
+console.log(answer.search(reg));*/
+
+let pass = prompt('ведите пароль');
+
+console.log(pass.replace(/./g, "*"));
+alert('12-36-56'.replace(/-/g, ":"));
