@@ -1,0 +1,9 @@
+.box{
+    height: 220px;
+	width: 220px;    
+    background: brown;        
+}
+
+input {
+   margin: 10px 10px 10px 10px;
+}
